@@ -8,7 +8,7 @@ from PyQt5 import QtCore, QtWidgets
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 sys.path.append(".")
-from torus_simulation import p_list
+from Rat_Game import p_list
 
 
 class MplCanvas(FigureCanvas):
